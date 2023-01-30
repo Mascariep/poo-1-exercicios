@@ -1,0 +1,38 @@
+{
+  "name": "poo-1-exercicios",
+  "version": "1.0.0",
+  "description": "<strong>A partir dessa aula os exercícios da tarde voltam a ser independentes. Não se preocupe em centralizá-los em um mesmo repo.</strong>\r <br><br>\r Crie um repo pessoal na sua conta com o nome poo-1-exercicios (ou o nome que você preferir) e trabalhe nele.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./build/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev ./src/index.ts",
+    "videoTest": "ts-node-dev ./src/models/Video.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mascariep/poo-1-exercicios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mascariep/poo-1-exercicios/issues"
+  },
+  "homepage": "https://github.com/Mascariep/poo-1-exercicios#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.16",
+    "@types/knex": "^0.16.1",
+    "@types/node": "^18.11.18",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.4"
+  }
+}
